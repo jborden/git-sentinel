@@ -1,0 +1,19 @@
+name: git-sentinel
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - langgraph==1.0.3
+    - langchain==1.0.8
+    - langchain-core==1.0.7
+    - langchain-community==0.4.1
+    - langchain-ollama==1.0.0
+    - langfuse==3.10.1
+    - pydantic==2.12.4
+    - python-dotenv==1.0.1
+    - typer==0.20.0
+    - rich==13.9.4
+    - watchdog==4.0.0
