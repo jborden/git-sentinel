@@ -1,4 +1,4 @@
-# Site Reliability Agent
+# Git Sentinel
 
 ## Prerequisites
 
@@ -145,11 +145,9 @@ MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDwy+5...
 ```
 .
 ├── environment.yml              # Conda environment definition
-├── auth_service.py              # Writes to auth_service.log
-├── db_service.py                # Writes to db_service.log
-├── sre_agent.py                 # The actual agent
-├── sre_tools.py                 # Tools available to the agent
-├── sre_cli.py                   # Wrapper for running the agent
+├── sentinel_agent.py            # The actual agent
+├── sentinel_tools.py            # Tools available to the agent
+├── sentinel_cli.py              # CLI to the agent
 └── README.md                    # This file
 ```
 
